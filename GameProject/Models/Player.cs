@@ -9,6 +9,8 @@ namespace GameProject.Models
         public int HealingPotions { get; private set; }
         public int Score { get; private set; }
 
+        public int UseHealingPotions { get; private set; }
+
         public Player(string name)
         {
             Name = name;
@@ -30,6 +32,11 @@ namespace GameProject.Models
             if (Health > 100) Health = 100;
             HealingPotions--;
             return true;
+        }
+
+        public void Bonus(int bonus)
+        {
+            
         }
 
         public void AddScore(int points) { Score = Score + points; }

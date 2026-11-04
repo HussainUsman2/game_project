@@ -18,8 +18,8 @@ namespace GameProject.Services
         {
             List<Monster> monsters = new List<Monster>();
             monsters.Add(new Monster("Slime", 40, 8, 10));
-            monsters.Add(new Monster("Goblin", 65, 12, 20));
-            monsters.Add(new Monster("Dragon", 100, 16, 40));
+            monsters.Add(new Monster("Goblin", 55, 12, 20));
+            monsters.Add(new Monster("Dragon", 60, 16, 40));
             return monsters;
         }
 
@@ -50,7 +50,9 @@ namespace GameProject.Services
         public int CalculateVictoryBonus(Player player)
         {
 
-            return 0;
+            int bonus = player.Score + (player.HealingPotions * 10) ;
+
+            return bonus;
         }
 
         public void SaveResult(Player player, bool won)

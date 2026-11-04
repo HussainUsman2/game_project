@@ -5,3 +5,10 @@ C:\Users\mlaee\source\repos\GameProject\GameProject\obj\Debug\GameProject.csproj
 C:\Users\mlaee\source\repos\GameProject\GameProject\obj\Debug\GameProject.csproj.CoreCompileInputs.cache
 C:\Users\mlaee\source\repos\GameProject\GameProject\obj\Debug\GameProject.exe
 C:\Users\mlaee\source\repos\GameProject\GameProject\obj\Debug\GameProject.pdb
+C:\Users\LENOVO\Desktop\GameProject\GameProject\bin\Debug\GameProject.exe.config
+C:\Users\LENOVO\Desktop\GameProject\GameProject\bin\Debug\GameProject.exe
+C:\Users\LENOVO\Desktop\GameProject\GameProject\bin\Debug\GameProject.pdb
+C:\Users\LENOVO\Desktop\GameProject\GameProject\obj\Debug\GameProject.csproj.AssemblyReference.cache
+C:\Users\LENOVO\Desktop\GameProject\GameProject\obj\Debug\GameProject.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\GameProject\GameProject\obj\Debug\GameProject.exe
+C:\Users\LENOVO\Desktop\GameProject\GameProject\obj\Debug\GameProject.pdb

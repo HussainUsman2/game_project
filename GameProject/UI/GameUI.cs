@@ -25,6 +25,8 @@ namespace GameProject.UI
                 Console.Write("Choose: ");
                 string choice = Console.ReadLine();
 
+
+
                 if (choice == "1") PlayGame();
                 else if (choice == "2") ShowScores();
                 else if (choice == "3") ShowInstructions();
@@ -119,7 +121,17 @@ namespace GameProject.UI
         {
             // STUDENT TODO (UI task): explain attack, healing, winning, losing,
             // and scoring here. Clear the screen first and call Pause() last.
-            Console.WriteLine("\nInstructions have not been completed yet.");
+            Console.Clear();
+            Console.WriteLine("\nPlayer had to set is name.");
+            Console.WriteLine("\nConsole will show the monster name and player name.");
+            Console.WriteLine("\nPlayer can see his hp and the monster hp");
+            Console.WriteLine("\nIf the player press 1 it will attack on monster .");
+            Console.WriteLine("\nIf player press 3 the monster will attack only ");
+            Console.WriteLine("\nBy pressing 2 the plater can get a healing potions max limit is 3 ");
+            Console.WriteLine("\nEach potion will award 10 points in the HP to player.");
+            Console.WriteLine("\nPlayer each unused healing potions will award you 10 points.");
+            Console.WriteLine("\nIf player health becames below 0 you will loose.");
+            Console.WriteLine("\nOnce the player defeated by monster, He will get 0 points in reward ");
             Pause();
         }
 
